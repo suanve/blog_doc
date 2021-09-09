@@ -1,6 +1,6 @@
 ```json
 {
-  "date": "2021-03-10 11:49:57",
+  "date": "2021.03.10 11:49",
   "tags": ["golang","权限绕过","next-terminal","代码审计"],
   "description":"go代码审计-next-terminal权限绕过"
 }
