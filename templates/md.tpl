@@ -1,7 +1,11 @@
 ```json
-\{
-  "date": "{}",
-  "tags": [{}],
+{
+  "date": "%s",
+  "tags": %s,
   "description":"nothing"
-\}
+}
 ```
+
+# title
+
+

@@ -1,12 +1,13 @@
+#!/usr/bin/env python3
 import sys
 import time
 
-def writeNew(title,tag}:
+def writeNew(tag):
     context = open("./templates/md.tpl").read()
     t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(int(time.time())))
-    context.format(title,tag,t)
+    tag = tag.split(",")
+    context = context%(t,tag)
+    print(context)
 
-title = sys.argv[1]
-tag = sys.argv[2]
-
-writeNew(title,tag,timeStr)
+tag = sys.argv[1]
+writeNew(tag)
