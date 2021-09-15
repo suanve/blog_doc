@@ -22,7 +22,6 @@ session
 ![image-20210911161440599](https://files.funcloud.net:443/uploads/71294234619997695ad87491b6033be0)
 
 
-
 发现redis信息
 
 ![image-20210911161458373](https://files.funcloud.net:443/uploads/25ae9272034d97c13305bf2adb4ed107)
