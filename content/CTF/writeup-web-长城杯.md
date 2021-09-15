@@ -6,6 +6,7 @@
 }
 ```
 
+
 # 长城杯
 
 ## web
@@ -184,7 +185,7 @@ Content-Length: 192
 
 解码看看
 
-![image-20210911232715285](/Users/su/Library/Application%20Support/typora-user-images/image-20210911232715285.png)
+![image-20210911232715285](https://files.funcloud.net:443/uploads/c7b153c925871a4fa38e215d22e3aba2)
 
 去掉数字和那个杠继续
 
@@ -202,7 +203,7 @@ chekNowMoney这个值我们从代码里可以看到是cookies一定有的
 
 查了相关资料发现
 
-![image-20210911232734028](/Users/su/Library/Application%20Support/typora-user-images/image-20210911232734028.png)
+![image-20210911232734028](https://files.funcloud.net:443/uploads/0a22cf02f7bf4fb2ca7966cf2f902f3d)
 
 go里面的math/seed 如果没设定 默认为1
 
@@ -298,7 +299,7 @@ func randomChar(l int) []byte {
 
 ![image-20210911232915588](https://files.funcloud.net:443/uploads/d392fb01fffcb168bb569d5b4538865c)
 
-![image-20210911232922187](/Users/su/Library/Application%20Support/typora-user-images/image-20210911232922187.png)
+![image-20210911232922187](https://files.funcloud.net:443/uploads/de7613d4a0022b6e9fabdf661a88b610)
 
 
 
